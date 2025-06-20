@@ -22,7 +22,7 @@ sed -i \
     -e 's/^# DB_HOST=127.0.0.1/DB_HOST=127.0.0.1/' \
     -e 's/^# DB_PORT=3306/DB_PORT=5432/' \
     -e "s/^# DB_DATABASE=laravel/DB_DATABASE=${PROJECT_NAME}/" \
-    -e 's/^# DB_USERNAME=root/DB_USERNAME=postgres/' \
+    -e 's/^# DB_USERNAME=root/DB_USERNAME=root/' \
     -e 's/^# DB_PASSWORD=/DB_PASSWORD=/' \
     .env
 
